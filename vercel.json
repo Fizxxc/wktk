@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/ws.js", "use": "@vercel/node" },
+      { "src": "pages/**/*.js", "use": "@vercel/next" }
+    ]
+  }
+  
